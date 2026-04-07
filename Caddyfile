@@ -1,0 +1,11 @@
+vpsXXXXXX.vps.ovh.net {
+    basicauth {
+        import /etc/caddy/htpasswd
+    }
+
+    reverse_proxy registry:5000
+
+    request_body {
+        max_size 2GB
+    }
+}

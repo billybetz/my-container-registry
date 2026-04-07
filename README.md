@@ -12,7 +12,7 @@ Registry Docker privé, sécurisé avec TLS (Let's Encrypt via Caddy) et authent
 
 - Docker & Docker Compose installés sur le serveur
 - Un hostname résolvable publiquement (ex: `vpsXXXXXX.vps.ovh.net`)
-- Ports **80** et **443** ouverts sur le serveur
+- Ports **1080** et **1443** ouverts sur le serveur
 
 ## Structure
 
