@@ -50,8 +50,8 @@ htpasswd -Bc auth/htpasswd <TON_USER>
 ### 4. Ouvrir les ports (si ufw actif)
 
 ```bash
-sudo ufw allow 80/tcp
-sudo ufw allow 443/tcp
+sudo ufw allow 1080/tcp
+sudo ufw allow 1443/tcp
 ```
 
 ### 5. Démarrer
